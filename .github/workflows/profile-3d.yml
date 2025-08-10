@@ -19,6 +19,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
           USERNAME: aarthurcreis
+          THEME: dark
+          STYLE: solid
 
       - name: Commit & Push
         run: |

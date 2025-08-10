@@ -1,17 +1,28 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # Executa todo dia à meia-noite
+  workflow_dispatch:       # Permite rodar manualmente
+
 permissions:
-  contents: write
+  contents: write          # Permissão para commit e push
 
-steps:
-  - uses: actions/checkout@v4
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-  - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-    env:
-      GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
 
-  - name: Commit & Push
-    run: |
-      git config user.name "github-actions"
-      git config user.email "github-actions@github.com"
-      git add .
-      git commit -m "Atualizar 3D contributions" || echo "Nenhuma alteração"
-      git push
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Atualizar 3D contributions" || echo "Nenhuma alteração"
+          git push

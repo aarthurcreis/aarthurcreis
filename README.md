@@ -1,8 +1,6 @@
 <div align="center">
-  <h1>Hi! I´m Arthur!</h1>
+  <h1>Hi! I'm Arthur, nice to meet you!</h1>
 </div>
-
-<hr />
 
 <table>
   <tr>

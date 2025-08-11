@@ -2,6 +2,8 @@
   <h1>Hi! I'm Arthur, nice to meet you!</h1>
 </div>
 
+---
+
 <table>
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=aarthurcreis&theme=dark&hide_border=true&include_all_commits=false&count_private=false" /></td>
@@ -18,3 +20,5 @@
     </td>
   </tr>
 </table>
+
+---

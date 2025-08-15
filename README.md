@@ -1,4 +1,6 @@
-## Hello World 👋! I'm Arthur <img src="https://komarev.com/ghpvc/?username=aarthurcreis" />
+<div align="center">
+  # Hello World 👋! I'm Arthur <img src="https://komarev.com/ghpvc/?username=aarthurcreis" />
+</div>
 
 <table>
   <tr>

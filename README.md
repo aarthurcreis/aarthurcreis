@@ -1,6 +1,4 @@
-<div align="center">
-  <h1>Hello World! I'm Arthur</h1>
-</div>
+## Hello World 👋! I'm Arthur <img src="https://komarev.com/ghpvc/?username=aarthurcreis" />
 
 <table>
   <tr>

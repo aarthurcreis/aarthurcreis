@@ -18,7 +18,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
-          USERNAME: aarthurcreis
+          USERNAME: reisarthurdev
 
       - name: Commit & Push
         run: |

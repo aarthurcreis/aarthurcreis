@@ -1,18 +1,25 @@
-<div align="center">
+<h2> Hello, world 👋! I'm Arthur <img src="https://komarev.com/ghpvc/?username=aarthurcreis" /> </h2>
 
-# Hello, world 👋! I'm Arthur <img src="https://komarev.com/ghpvc/?username=aarthurcreis" />
+[![Linkedin: thaianebraga](https://img.shields.io/badge/-reisarthurdev-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/reisarthurdev/)](https://www.linkedin.com/in/reisarthurdev/)
+[![GitHub Arthur](https://img.shields.io/github/followers/reisarthurdev?label=follow&style=social)](https://github.com/reisarthurdev)
 
-</div>
+```java
+public class Person {
+    private String name;
+    private String role;
 
----
+    public Person(String name, String role) {
+        this.name = name;
+        this.role = role;
+    }
 
-<table>
-  <tr>
-  </tr>
-    <td colspan="2">
-      <img src="./profile-3d-contrib/profile-night-green.svg" style="width:100%;" />
-    </td>
-  </tr>
-</table>
+    public void speak() {
+        System.out.println("Hello World!");
+    }
 
----
+    public static void main(String[] args) {
+        Person arthur = new Person("Arthur Reis", "Student");
+        arthur.speak();
+    }
+}
+```
